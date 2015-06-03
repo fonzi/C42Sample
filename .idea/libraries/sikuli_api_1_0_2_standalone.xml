@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sikuli-api-1.0.2-standalone">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/sikuli-api-1.0.2-standalone.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
