@@ -3,14 +3,19 @@ import Rules.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
+/**
+ * Navigate consist of selenium and taking all of the abstract functionality to load Fire Fox and navigate to the expected location on the web
+ */
 public class Navigate extends AbstractBase
 {
+    /**
+     * Will load Fire Fox, and navigate to the download portion of code42.com and download the file.
+     * @throws Exception
+     */
     @Test
     @Retry
     public void NavigateToDownload() throws Exception
     {
-
-
         //Go to Code 42
         myDriver.get(myBaseURL);
         //Go to Nav Menu

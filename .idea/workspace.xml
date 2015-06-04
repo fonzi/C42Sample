@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c35d94e-704d-4a98-8c58-503995b576c0" name="Default" comment="" />
+    <list default="true" id="4c35d94e-704d-4a98-8c58-503995b576c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MOVED" beforePath="C:\Users\Fonzi\Desktop\Code42Sample\src\NavigateAndDownload.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AbstractBase.java" afterPath="$PROJECT_DIR$/src/AbstractBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CrashPlanSignUp.java" afterPath="$PROJECT_DIR$/src/CrashPlanSignUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Navigate.java" afterPath="$PROJECT_DIR$/src/Navigate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pre-request/pre-request.txt" afterPath="$PROJECT_DIR$/lib/pre-request/pre-request.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Code42Sample.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pre-request.txt" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433297062494" ignored="false" />
-    <file path="/AbstractBase.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433101332100" ignored="false" />
-    <file path="/Navigate.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433304520147" ignored="false" />
+    <file path="/pre-request.txt" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433379446621" ignored="false" />
+    <file path="/AbstractBase.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433379428581" ignored="false" />
+    <file path="/Navigate.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433379312946" ignored="false" />
     <file path="/RetryRule.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1432950540371" ignored="false" />
     <file path="/Retry.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1432950480379" ignored="false" />
     <file path="/fragment.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433301539233" ignored="false" />
     <file path="/InstallCrashplan.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433297559556" ignored="false" />
     <file path="/InstallCrashPlan.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433296654717" ignored="false" />
-    <file path="/CrashPlanSignUp.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433303345594" ignored="false" />
+    <file path="/CrashPlanSignUp.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433379212251" ignored="false" />
     <file path="/CrashPlanInstall.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433294310199" ignored="false" />
-    <file path="/Dummy.txt" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433305304725" ignored="false" />
+    <file path="/Dummy.txt" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433379078683" ignored="false" />
     <file path="$USER_HOME$/Downloads/Code42Sample_copy/src/Navigate.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433301090277" ignored="false" />
     <file path="$USER_HOME$/Downloads/Code42Sample_copy/src/Rules/CrashPlanSignUp.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433301374820" ignored="false" />
     <file path="$USER_HOME$/Downloads/Code42Sample_copy/src/CrashPlanSignUp.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433301532661" ignored="false" />
+    <file path="/Main.java" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433379103030" ignored="false" />
+    <file path="/build.xml" changelist="4c35d94e-704d-4a98-8c58-503995b576c0" time="1433378392167" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +53,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -77,6 +87,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="8" class="Main" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -86,11 +113,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractBase.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AbstractBase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="20" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.55593807">
-              <folding />
+            <state line="38" column="53" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,8 +127,10 @@
       <file leaf-file-name="Navigate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Navigate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="14" column="9" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,10 +138,28 @@
       <file leaf-file-name="CrashPlanSignUp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CrashPlanSignUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="38" selection-start="3852" selection-end="3852" vertical-scroll-proportion="0.0">
+            <state line="97" column="78" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="102" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pre-request.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/pre-request/pre-request.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="63" selection-start="124" selection-end="124" vertical-scroll-proportion="0.029259896">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,11 +194,13 @@
         <option value="$PROJECT_DIR$/src/InstallCrashplan.java" />
         <option value="$PROJECT_DIR$/src/Rules/CrashPlanInstall.java" />
         <option value="$PROJECT_DIR$/src/CrashPlanInstall.java" />
-        <option value="$PROJECT_DIR$/src/AbstractBase.java" />
         <option value="$PROJECT_DIR$/src/InstallCrashPlan.java" />
-        <option value="$PROJECT_DIR$/lib/pre-request/pre-request.txt" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/CrashPlanSignUp.java" />
         <option value="$PROJECT_DIR$/src/Navigate.java" />
+        <option value="$PROJECT_DIR$/src/AbstractBase.java" />
+        <option value="$PROJECT_DIR$/lib/pre-request/pre-request.txt" />
       </list>
     </option>
   </component>
@@ -188,6 +239,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,8 +339,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +349,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -306,9 +357,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -322,24 +373,7 @@
       <recent name="C:\Users\Fonzi\Desktop\Code42Sample\lib\pre-request" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Navigate.NavigateToDownload">
-    <configuration default="false" name="CrashPlanSignUp" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CrashPlanSignUp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code42Sample" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="CrashPlanSignUp.SignUpFailedWrongEmail" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Code42Sample" />
@@ -432,6 +466,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="AbstractBase" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="AbstractBase" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code42Sample" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -444,6 +495,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -472,19 +536,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -523,20 +574,44 @@
       <patterns />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CrashPlanSignUp" />
+    <configuration default="false" name="Main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code42Sample" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CrashPlanSignUp.SignUpFailedWrongEmail" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.Navigate.NavigateToDownload" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.CrashPlanSignUp.SignUpPass" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.Navigate" />
+      <item index="5" class="java.lang.String" itemvalue="Application.AbstractBase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Navigate.NavigateToDownload" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Navigate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CrashPlanSignUp.SignUpFailedWrongEmail" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CrashPlanSignUp.SignUpPass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CrashPlanSignUp" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AbstractBase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Navigate.NavigateToDownload" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Navigate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CrashPlanSignUp.SignUpFailedWrongEmail" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CrashPlanSignUp.SignUpPass" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -581,21 +656,21 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67594653" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67594653" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.49573106" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32405347" sideWeight="0.52187836" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32405347" sideWeight="0.53041625" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.49573106" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.45090714" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1398079" sideWeight="0.67594653" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32405347" sideWeight="0.47438633" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32405347" sideWeight="0.46584845" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -661,31 +736,17 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <antCommandLine value="" />
+      <runInBackground value="true" />
+      <targetFilters />
+      <treeView value="true" />
+      <verbose value="true" />
+      <viewClosedWhenNoErrors value="false" />
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CrashPlanSignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="34" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Navigate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CrashPlanSignUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="32" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
@@ -698,7 +759,9 @@
     <entry file="file://$PROJECT_DIR$/src/AbstractBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="19" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,7 +773,9 @@
     <entry file="file://$PROJECT_DIR$/src/Navigate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="139" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -743,14 +808,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pre-request/pre-request.txt">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="114" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" />
+        <state line="12" column="52" selection-start="685" selection-end="685" vertical-scroll-proportion="0.33046472">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CrashPlanSignUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="38" selection-start="3852" selection-end="3852" vertical-scroll-proportion="0.0">
+        <state line="97" column="78" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -759,14 +826,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Navigate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="14" column="9" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.55593807">
+        <state line="38" column="53" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="102" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pre-request/pre-request.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="63" selection-start="124" selection-end="124" vertical-scroll-proportion="0.029259896">
           <folding />
         </state>
       </provider>

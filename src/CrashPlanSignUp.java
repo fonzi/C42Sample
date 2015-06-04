@@ -6,18 +6,20 @@ import org.sikuli.api.robot.desktop.DesktopKeyboard;
 import org.sikuli.script.*;
 
 
+/**
+ * CrashPlan sign up class consist of three test cases
+ * Pass a succesfull test case
+ * Fail a test case with wrong password match
+ * Fail a test case with invalid email address
+ */
 public class CrashPlanSignUp
 {
     Keyboard myKeyboard = new DesktopKeyboard();
 
-
-
-    public static void main(String [] args) throws Exception
-    {
-        CrashPlanSignUp mySignUp = new CrashPlanSignUp();
-        mySignUp.SignUpFailedWrongEmail();
-    }
-
+    /**
+     * Only positive test case for sign up
+     * @throws Exception
+     */
     @Test
     @Retry
     public void  SignUpPass() throws Exception
@@ -33,7 +35,7 @@ public class CrashPlanSignUp
         //Send TAB
         myKeyboard.type(Key.TAB);
         //Send Email Address
-        myKeyboard.type("alfonso.test@developvazquez.com");
+        myKeyboard.type("alfonso.test1@developvazquez.com");
         //Send TAB
         myKeyboard.type(Key.TAB);
         //Send first Password
@@ -45,6 +47,11 @@ public class CrashPlanSignUp
         //Send ENTER
         myKeyboard.type(Key.ENTER);
     }
+
+    /**
+     * This test case will fail with a wrong email address
+     * @throws Exception
+     */
     @Test
     @Retry
     public void SignUpFailedWrongEmail() throws Exception
@@ -86,6 +93,11 @@ public class CrashPlanSignUp
         p.destroy();
 
     }
+
+    /**
+     * This test case will pass with a fail test case with a password mismatch
+     * @throws Exception
+     */
     @Test
     @Retry
     public void SignUpMismatchPass() throws Exception

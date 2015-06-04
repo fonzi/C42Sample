@@ -1,5 +1,5 @@
 There is a few pre-request required for this program to run,
-1) Needs to be a Windows machine
+1) Needs to be a Windows machine with a single monitor attached
 2) The Windows machine needs to have java 1.7 or higher installed.
 3) Needs internet connection
 4) Firefox 38 or lower needs to be installed in the machine

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="Selenium-Test" name="module.selenium">
+    <dirname property="module.selenium.basedir" file="${ant.file.module.selenium}"/>
+
+    <!-- Initialize Properties -->
+    <property environment="env"/>
+    <property name="junit.output.dir" value="../Code42Sample/results"/>
+    <property name="tests.src.dir" value="../Code42Sample/src"/>
+    <property name="src" value="../Code42Sample/src"/>
+    <property name="lib" value="../Code42Sample/lib"/>
+    <property name="bin" value="../Code42Sample/bin"/>
+    <property name="proj" value="../Code42Sample"/>
+    <property name="jars" value="../Code42Sample/lib"/>
+    <property name="res" value="../Code42Sample/results"/>
+
+    <!-- Class path Initialize -->
+    <path>
+        <!-- Dirvers -->
+        <pathelement location="../Code42Sample/lib/Drivers/chromedriver_win32/chromedriver.exe"/>
+        <pathelement location="../Code42Sample/lib/Drivers/IEDriverServer_Win32_2.43.0/IEDriverServer.exe"/>
+        <pathelement location="../Code42Sample/lib/Drivers/IEDriverServer_x64_2.43.0/IEDriverServer.exe"/>
+        <!-- Selenium 2.45.0 -->
+        <pathelement location="../Code42Sample/lib/selenium-2.45.0/selenium-java-2.45.0.jar"/>
+        <!-- JUnit 4.12 -->
+        <pathelement location="../Code42Sample/lib/junit-4.12.jar"/>
+        <!-- Hamcrest -->
+        <pathelement location="../Code42Sample/lib/hamcrest-all-1.3.jar"/>
+        <!-- Selenium Stand Alone 2.45.0 -->
+        <pathelement location="../Code42Sample/lib/selenium-server-standalone-2.45.0.jar"/>
+        <!--Sikuli -->
+        <pathelement location="../Code42Sample/lib/sikuli-api-1.0.2-standalone.jar"/>
+        <pathelement location="../Code42Sample/lib/pre-request/sikuli-java.jar"/>
+        <pathelement location="../Code42Sample/lib/pre-request/libs"/>
+
+    </path>
+
+    <target name="Selenium-Test" depends="__init">
+        <echo> Init Tests ... </echo>
+    </target>
+
+    <target name="__compile" >
+        <echo>Compiling</echo>
+        <mkdir dir="bin"/>
+        <javac includeantruntime="false" srcdir="${src}" destdir="${bin}" >
+            <classpath refid="build_jars" />
+        </javac>
+    </target>
+
+    <path id="build_jars">
+        <fileset dir="${jars}" includes="**/*.jar"/>
+        <fileset dir="${jars}" includes="../Code42Sample/lib/pre-request/sikuli-java.jar"/>
+        <pathelement location="${lib}"/>
+    </path>
+
+    <target name="__init" depends="__compile">
+        <mkdir dir="results"/>
+        <junit printsummary="yes" haltonfailure="no">
+            <classpath>
+                <pathelement location="${bin}"/>
+                <pathelement path="../Code42Sample/lib/junit-4.12.jar"/>
+                <pathelement path="../Code42Sample/lib/selenium-server-standalone-2.45.0.jar"/>
+            </classpath>
+            <formatter type="plain"/>
+            <batchtest fork="yes" todir="${res}">
+                <fileset dir="${src}">
+                    <include name="**/Navigate.java"/>
+                    <include name="**/CrashPlanSignUp.java"/>
+
+                </fileset>
+            </batchtest>
+        </junit>
+
+    </target>
+
+    <!-- clean the bin, browser, and output dirs -->
+    <target name="clean">
+        <delete dir="bin"/>
+        <delete dir="${tests.src.dir}/browser"/>
+        <delete dir="${junit.output.dir}"/>
+    </target>
+
+    <!--Generate JUnit Report-->
+    <target name="__junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

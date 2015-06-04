@@ -12,12 +12,19 @@ import static org.junit.Assert.fail;
 import java.lang.*;
 
 
+/**
+ * This abstrac class is used to build any other test that get extended from here
+ */
 public abstract class AbstractBase
 {
+    /**
+     * Initial settings are set, however myBrowser, baseURL can be grabbed from xml file
+     * myDriver is only initiliazed since main method needs to view something for WebDriver
+     */
     public String SessionUserName = System.getProperty("user.name");
     protected String myBrowser = "Firefox";
-    protected String myBaseURL;
-    protected WebDriver myDriver;
+    protected String myBaseURL = "https://www.code42.com";
+    protected WebDriver myDriver = new FirefoxDriver();
     protected boolean myAcceptNextAlert = true;
     protected StringBuffer myVerificationErrors = new StringBuffer();
     protected String kChromeDriver = "..\\Code42Sample\\lib\\Drivers\\chromedriver_win32\\chromedriver.exe";
@@ -28,6 +35,10 @@ public abstract class AbstractBase
     public Pattern SaveButton = new Pattern("..\\Code42Sample\\SikuliImages\\SaveFileButton.png");
 
 
+    /**
+     * This is the method which sets up the webdriver
+     * @throws Exception
+     */
     @Before
     public void setUp() throws Exception
     {
