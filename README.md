@@ -9,7 +9,8 @@ It signs up for CrashPlan
 There is no installation hence sikuli misbehaves with instillation wizards and also there is no need to automate installations for this type of testing. 
 
 There is a few pre-request required for this program to run,
-1) Needs to be a Windows machine
+
+1) Needs to be a Windows machine, with a single physical monitor attached
 
 2) The Windows machine needs to have java 1.7 or higher installed.
 
